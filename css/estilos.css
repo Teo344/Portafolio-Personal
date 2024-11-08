@@ -1,0 +1,43 @@
+.container{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.imgred{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+h1{
+    color: red;
+}
+h2{
+    color: brown;
+}
+
+.parrafo{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pe{
+    width:3px;
+    height:3px;
+}
+
+footer{
+    background-color: antiquewhite;
+    font-size: 20px;
+
+}
+img{
+    width: 50px;
+}
