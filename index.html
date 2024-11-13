@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criollo Portafolio</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 
 </head>
 
@@ -14,16 +14,32 @@
         <header>
             <h1><center>Mi Portafolio</center>  </h1>
             <h2><center>Sobre Mi</center></h2>
+            <nav class="menu">
+                <a href="index.html">Home</a>|
+                <a href="C:\Users\MSI\Desktop\Universidad\Cuarto Semestre\Web\Ejercicio-11_06_2024\index.html">Redes Sociales</a>|
+                <a href="https://www.instagram.com/_gabriel.sxy/">Instagram</a>|
+            </nav>
         </header>
 
-        <center><img src="imagenes/Mia.png" class="imgred" /></center>
+        <input type="text" id="buscar" name="buscar" placeholder="Buscar">
+        <button id="botonbuscar">Buscar</button>
 
-        <section class="parrafo"><p>Soy un estudiante de las fuerzas armdas ESPE, estudiando la carrera de Ingnieria de Software</p></section>
+        <center>
+            <figure>
+                <img src="imagenes/Mia.png" class="imgred" />
+                <figcaption>Imag1-Foto</figcaption>
+            </figure>
+        </center>
+        <a href="https://www.instagram.com/p/DB1g6bSuVWH/?img_index=1">
+            <button class="boton">Visitar ubicacion de imagen</button>
+        </a>
+
+        <section class="parrafo"><p>Soy un <span class="spanuso">estudiante de las fuerzas armdas ESPE</span>, estudiando la carrera de Ingnieria de Software</p></section>
 
         <h2>Mis proyectos</h2>
         <ul>
-            <li>Proyecto 1: Programa de multiplicacion</li>
-            <li>Proyecto 2: Programa de restaurante para pedidos</li>
+            <li>Proyecto 1: Programa de <strong>multiplicacion</strong></li>
+            <li>Proyecto 2: Programa de <em>restaurante</em> para pedidos</li>
             <li>Proyecto 3: Carro conectado con bluetooh</li>
         </ul>
 
