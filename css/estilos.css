@@ -74,3 +74,22 @@ img{
     cursor: pointer;
     background-color: blueviolet;
 }
+
+div > p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+aside > h2{
+    background-color: beige;
+}
+
+.flexstyle{
+    border-color: bisque;
+    border-width: 6px;
+    border-style: double;
+    display: flex;
+    justify-content: space-between;
+
+}
