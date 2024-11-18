@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="./css/tablasbg.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tablas</h1>
+        <p>El uso de la etiqueta <em>table</em>, es para el envio y recepcion de informacion</p>
+    </header>
+
+    <section>
+        <article>
+            <table frame="void" rules="rows" border="3px" cellpadding="10px" cellspacing="0px">
+                <caption align="bottom">Tabla de Registros</caption>
+                <colgroup>
+                    <col>
+                    <col style="background-color: #78B3CE;"> 
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Dirección</th>
+                        <th>Telefono</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Mateo</td>
+                        <td>Criollo</td>
+                        <td>Sangolqui</td>
+                        <td>0986824606</td>
+                    </tr>
+                    <tr>
+                        <td>Mateo</td>
+                        <td>Criollo</td>
+                        <td>Sangolqui</td>
+                        <td>0986824606</td>
+                    </tr>
+                    <tr>
+                        <td>Mateo</td>
+                        <td>Criollo</td>
+                        <td>Sangolqui</td>
+                        <td>0986824606</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                </tfoot>
+
+            </table>
+        </article>
+    </section>
+    <br>
+
+    <section>
+        <article>
+            <table frame="void" rules="rows" border="3px" cellpadding="10px" cellspacing="0px">
+                <caption align="bottom">Tabla de Registros</caption>
+                <colgroup>
+                    <col>
+                    <col style="background-color: #78B3CE;"> 
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Dirección</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="4">Mateo</td>
+                        <td>Criollo</td>
+                        <td rowspan="4">Sangolqui</td>
+                    </tr>
+                    <tr>
+                        <td>Sangolqui</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Sangolqui</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                </tfoot>
+
+            </table>
+        </article>
+    </section>
+<br>
+
+    <section>
+        <article>
+            <form action="submit" method="post">
+                <label>Nombres: </label>
+                    <input type="text" minlength="5" maxlength="20" id="txtNombres" placeholder="nombres">
+                    <br>
+                <label>Apellidos: </label>
+                    <input type="text" id="txtApellidos" placeholder="apellidos">
+                    <br>
+                <label>Password: </label>
+                    <input type="password" id="txtPassword" maxlength="6" placeholder="password">
+                    <br>
+                <label>Tipo de Persona: </label>
+                    <select id="CboTipo">
+                        <option>Estudiante</option>
+                        <option>Docente</option>
+                        <option>Administrativo</option>
+                    </select>
+                    <br>
+
+                    <label> Observacion: </label>
+                    <textarea name="taObservacion">
+                    </textarea>
+
+                    <br><br>
+                <input type="Submit" value="Enviar Datos">
+            </form>
+        </article>
+    </section>
+
+</body>
+
+</html>

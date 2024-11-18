@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: #F96E2A;
+    background: rgb(120,179,206);
+    background: linear-gradient(90deg, rgba(120,179,206,1) 0%, rgba(201,230,240,1) 32%, rgba(251,248,239,1) 54%, rgba(249,110,42,1) 80%);
+}
+
+caption{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color:  #78B3CE;
+    background-color: #FBF8EF;
+}
+
+th{
+    color: #F96E2A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+td{
+    align-content: center;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border-bottom: 1px solid black ;
+    border-radius: 0px;
+    outline: none;
+    color: aquamarine;
+}
+
+input[type="password"]{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0px;
+    color: black;
+    outline:none;
+}
+
+input[type="Submit"]{
+    background-color: #F96E2A;
+    border-radius: 10px;
+}
+
+
+::placeholder{
+    color:red;
+}
+
+input[type="text"]::placeholder{
+    color: yellow;
+}
+
+#txtNombres::placeholder{
+    color: green;
+}
