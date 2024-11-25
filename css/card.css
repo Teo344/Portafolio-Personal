@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(195, 198, 201);
+    margin-bottom: 100px;
+}
+
+.card{
+    box-shadow: #000 0px 0px 50px;
+    margin: auto;
+    margin-top: 50px;
+    height: 700px;
+    background-color: #ddd;
+    width: 500px;
+}
+
+.card-header{
+    height: 350px;
+    background-image: url(../imagenes/place2.png);
+}
+
+h4{
+    color: gray;
+}
+
+.card-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+
+.size{
+    margin-top: 50px;
+}
+
+.color{
+    margin-top: 40px;
+}   
+
+.red{
+    background-color: red;
+    border: 1px solid red;
+    color: transparent;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.blue{
+    background-color: blue;
+    border: 1px solid blue;
+    color: transparent;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.white{
+    background-color: white;
+    border: 1px solid white;
+    color: transparent;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.green{
+    background-color: green;
+    border: 1px solid green;
+    color: transparent;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}

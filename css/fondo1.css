@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: violet;
+}
+
+.seccion1{
+    height: 400px;
+    background-color: black;
+    background-image: url(../imagenes/angular.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.seccion2{
+    background-image:  url(../imagenes/place.png);
+    height: 400px;
+}
+
+.seccion3{
+    height: 500px;
+    background-image: url(../imagenes/fondoangular.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.seccion4{
+    height: 1000px;
+}
